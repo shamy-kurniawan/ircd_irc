@@ -1,0 +1,137 @@
+shamy-kurniawan !OWnER!
+<shamy> help
+<Gugle> shamy-kurniawan Command LIsT.
+<Gugle> RuNNINg WiTH EggDrop v1.6.21 Powered by KocHi
+<Gugle> MSG/PV COMMAND..!
+<Gugle> auth <password>         Authenticate User
+<Gugle> logout <password>        Deauthenticate User
+<Gugle> pass <password>          set password
+<Gugle> passwd <oldpass> <newpass>  change user password
+<Gugle> userlist                 userlist
+<Gugle> op <#> <nick>            Op someone
+<Gugle> deop <#> <nick>          DeOp someone
+<Gugle> voice <#> <nick>         voice someone
+<Gugle> devoice <#> <nick>       devoice someone
+<Gugle> kick <#> <nick|host> <reason>  kick someone
+<Gugle> kickban <#> <nick|host> <reason>  kickban someone
+<Gugle> identify <nick> <passwd> identify to nickserv someone access
+<Gugle> join <#>                 joining #channel temporary
+<Gugle> part <#>                 part #channels
+<Gugle> logo <your crew logo>    changing text logo on kick message
+<Gugle> vhost <IP DNS>           changing vhost
+<Gugle> away <msg>               set bot away message
+<Gugle> admin <msg>              set bot admin on status
+<Gugle> memo <user|all> <msg>    send memo to all user or one user
+<Gugle> bantime <minutes>        auto unban on X minutes (0 never unban)
+<Gugle> logchan <#|0FF>          log #channel
+<Gugle> !!WARNING!! turn logchan on will decrease bot performance!
+<Gugle> <DCC> .log               show #channel log
+<Gugle> note > please increase on general - window buffer into 5000
+<Gugle> +chan <#>                joining permanent #channel
+<Gugle> botnick <nick> <id>      changing permanent bot primary nick
+<Gugle> botaltnick <nick> <id>   changing permanent bot alternate nick
+<Gugle> realname <bot realname>  changing permanent bot realname
+<Gugle> ident <bot ident>        changing permanent bot ident
+<Gugle> die                      kill bot
+<Gugle> MSG/CHANNEL COMMAND..!
+<Gugle> `up                      op your self
+<Gugle> `down                    deop your self
+<Gugle> `op/+o <nick>            op spesified nick
+<Gugle> `deop/-o <nick>          deop spesified nick
+<Gugle> `voice/+v <nick>         voice spesified nick
+<Gugle> `devoice/-v <nick>       devoice spesified nick
+<Gugle> `kick <nick> <reason>    kick spesified nick
+<Gugle> `kickban <nick> <reason> kickban spesified nick
+<Gugle> `mode <+/- settings>     mode setting #channel
+<Gugle> `ping / `pong            ping your self
+<Gugle> `invite <nick>           invite person to current #channel
+<Gugle> `banlist <#channel>      list of banned from specified <#channel>
+<Gugle> `ban <nick|hostmask>     ban some nick or hostmask
+<Gugle> `unban <nick|host> <#>   unban some nick or hostmask
+<Gugle> `+chan <#>               joining permanent #channel
+<Gugle> `channels                list of channel who's bot sit on
+<Gugle> `userlist                list of user
+<Gugle> `chaninfo <#>            list of option for specified #channel
+<Gugle> `join <#>                joining #channel temporary
+<Gugle> `part <#>                part specified #channel
+<Gugle> `cycle <#>               cycle on specified #channel
+<Gugle> `+/- cycle <#|all> <X>   enable/disable bot cycle every X minutes
+<Gugle> `+/- ignore <nick|host>  ignore or unignore person
+<Gugle> `+/- status <#>          enable/disable bot displaying status
+<Gugle> `+/- enforceban <#>      enable/disable bot enforcebans
+<Gugle> `+/- autovoice <secs>    enable/disable channel autovoice on join
+<Gugle> `+/- seen <#>            activate/deactive seen on #
+<Gugle> `+/- guard <#|all>       enable/disable bot guard
+<Gugle> `+/- master <nick>       add/del <nick> from master list
+<Gugle> `+/- avoice <nick>       add/del <nick> from avoice list
+<Gugle> `+/- friend <nick>       add/del <nick> from friend list
+<Gugle> `+/- ipguard <host>      add/del host from ipguard list
+<Gugle> `+/- akick <host>        add/del host from kick list
+<Gugle> `+/- noop <nick>         add/del <nick> from no-op list
+<Gugle> `topic <topic>           change channel topic
+<Gugle> `status                  status system
+<Gugle> `servers                 servers bot currently running
+<Gugle> `jump <server> <port>    push bot to use spec server
+<Gugle> `access <nick>           see user access from spec flags
+<Gugle> `+/- forced              force bot to set mode w/o kick 1st
+<Gugle> `+/- colour              enable/disable colour on kick msg
+<Gugle> `+/- greet <msg>         autogreet user on join %n nick %c channel
+<Gugle> `+/- repeat <number>     max repeat user permitted
+<Gugle> `+/- text <number>       char limited text length on channel
+<Gugle> `+/- limit <number>      limited user on channel
+<Gugle> `+/- caps <%>            max %percent upper text
+<Gugle> `+/- clone <max>         enable/disable bot anti clones
+<Gugle> `+/- reop                auto re@p bot when got de@p
+<Gugle> `+/- joinpart <seconds>  kick user join part in past X 2nd
+<Gugle> `+/- spam                scanning for spam
+<Gugle> `+/- massjoin            preventing mass join lame
+<Gugle> `+/- key <keyword>       set channel with key
+<Gugle> `+/- revenge             enable/disable bot revenge
+<Gugle> `+/- badword <badword>   add/remove badword from list
+<Gugle> `badwords                list of badwords
+<Gugle> `nobot                   scanning for bot and kick them out
+<Gugle> `sdeop <#>               bot self deop
+<Gugle> `chanmode # <+ntmcilk>   set permanent mode for specified #
+<Gugle> `chanset <#> <LINE|CTCP|JOIN|DEOP|KICK|NICK>  set # options
+<Gugle> `chansetall <option>     set option for all #
+<Gugle> `chanreset <#|all>       reseting option for specified #channel
+<Gugle> `bantime                 how long bot unban in X minutes
+<Gugle> `tsunami <nick|#> <text> flood someone or channel
+<Gugle> `deluser <nick>          del user from userlist
+<Gugle> `restart                 restarting bot also jumping server
+<Gugle> `+/- owner <nick>        add/del <nick> from owner list
+<Gugle> `+/- admin <nick>        add/del <nick> from admin list
+<Gugle> `+/- aop <nick>          add/del <nick> from aop list
+<Gugle> `+/- host <nick> <flag>  add or remove user host
+<Gugle> `+/- gnick <nick>        guard nick kick it if not identify
+<Gugle> `host <nick>             see user host
+<Gugle> `mvoice <#channel>       mass voice
+<Gugle> `mdevoice <#channel>     mass devoice
+<Gugle> `mop <#channel>          mass op
+<Gugle> `mdeop <#channel>        mass deop
+<Gugle> `mkick <#channel>        mass kick
+<Gugle> `mmsg <#channel>         mass msg except the opped
+<Gugle> `minvite <#channel>      mass invite except the opped
+<Gugle> `munbans <#channel>      mass unban
+<Gugle> `say <text>              say with spesified text
+<Gugle> `msg <nick> <text>       msg person
+<Gugle> `act <text>              act with spesified text
+<Gugle> `notice <nick> <text>    msg person or #channel with spesified text
+<Gugle> `+/- topiclock           keep topic locked
+<Gugle> `+/- nopart <#channel>   make # protected
+<Gugle> `+/- mustop              set bot del channel if not oped
+<Gugle> `+/- invitelock <#>      invite back who part on spec chan
+<Gugle> `+/- dontkickops         enable/disable bot kick @
+<Gugle> `+/- autokick            auto kick on join
+<Gugle> `nick <nick>             change nick temporary
+<Gugle> `altnick                 change nick to alternative nick
+<Gugle> `randnick                change nick to random nick
+<Gugle> `realnick                change nick to real nick
+<Gugle> `chattr <nick> <flag>    changing user flag (+) add or (-) remove it
+<Gugle> `rehash                  rehashing data packing and unpacking
+<Gugle> FLAg LIsT UsER & cHaNNeL
+<Gugle> [@]P [+]VOICE AuTO[V]OICE [G]uARD [C]YCLE [E]nFORCEBANS [D]oNTKIcK@PS
+<Gugle> [P]RoTECTED C[L]ONE [A]DVERTISE [T]OPICLOCK AuTO[K]IcK [S]EEN
+<Gugle> [Z]owner admi[n] [m]aster botne[t] [x]fer [j]anitor [c]ommon
+<Gugle> [p]arty [b]ot [u]nshare [h]ilite [o]p de[O]p [k]ick [f]riend
+<Gugle> [a]uto-op auto[v]oice [g]voice [q]uiet [X]no add
